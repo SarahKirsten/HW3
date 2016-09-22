@@ -6,6 +6,7 @@
 ///////////////////////
 
 #include "Header.h"
+/*Liang Programming Exercise 9.2: the Fan Class*/
 
 int main()
 {
