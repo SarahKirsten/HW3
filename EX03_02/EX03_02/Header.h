@@ -14,5 +14,59 @@
 #include <fstream>
 using namespace std;
 
+class QuadraticEquation
+{
+private:
+	int a;
+	int b;
+	int c;
+
+public:
+	QuadraticEquation(double a, double b, double c)
+		: a(a), b(b), c(c)
+	{
+	}
+
+	double getA()//accessor
+	{
+		return a;
+	}
+
+	double getB()//accessor
+	{
+		return b;
+	}
+
+	double getC()//accessor
+	{
+		return c;
+	}
+
+	double getDiscriminant()//accessor
+	{
+		return b * b - 4 * a * c;
+	}
+
+	double getRoot1()//accessor
+	{
+		if (getDiscriminant() < 0)
+			return 0;
+		else
+		{
+			return (-b + sqrt(getDiscriminant())) / (2 * a);
+		}
+	}
+
+	double getRoot2()//accessor
+	{
+		if (getDiscriminant() < 0)
+			return 0;
+		else
+		{
+			return (-b - sqrt(getDiscriminant())) / (2 * a);
+		}
+	}
+};
+
 
 #pragma once
