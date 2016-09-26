@@ -10,7 +10,10 @@
 
 int main()
 {
-
+	MyInteger n1(5);
+	cout << "n1 is even? " << n1.isEven() << endl;
+	cout << "n1 is prime? " << n1.isPrime() << endl;
+	cout << "5 is prime? " << MyInteger::isPrime(5) << endl;
 
 
 	return 0;
