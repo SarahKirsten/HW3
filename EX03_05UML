@@ -1,1 +1,20 @@
-
+----------------------------------------------
+|MyInteger                                    |
+----------------------------------------------
+|-value: int                                  | an int value for the object
+----------------------------------------------
+|+MyInteger(value: int)                       |constructs object with specified int value
+|+getValue(): int const                       |returns value in this object
+|+isPrime(): bool const                       |returns true if value is prime
+|+isPrime(value: int): bool                   |returns true if a specified value is prime
+|+isPrime(value: MyInteger): bool             |returns true if the value in object is prime
+|+isEven(): bool const                        |returns true if value is even
+|+isEven(value: int): bool                    |returns true if specified value is even
+|+isEven(value: MyInteger): bool              |returns true if value in object is even
+|+isOdd(): bool const                         |returns true if value is odd
+|+isOdd(value: int): bool                     |returns true if specified value is odd
+|+isOdd(value: MyInteger): bool               |returns true if value in object is odd
+|+equals(anotherValue: int): bool const       |returns true if specified int value is equal to value in object
+|+equals(anotherValue: MyInteger): bool const |returns true if value in object is equal to value in object
+|+parseInt(value:String): int                 |returns int value for the specified string
+----------------------------------------------
