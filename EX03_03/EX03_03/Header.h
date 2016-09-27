@@ -20,6 +20,37 @@ private:
 
 public:
 	int value;
+	int previous;
+	int next;
+
+	EvenNumber()
+	{
+		value = 0;
+	}
+
+	EvenNumber(int x)//allows for changing value to another number
+	{
+		value = x;
+	}
+
+	int getValue()
+	{
+		return value;
+	}
+
+	int getPrevious()
+	{
+		previous = value - 2;//gets previous even number
+		return previous;//returns that number
+	}
+
+	int getNext()
+	{
+		next = value + 2;//gets next even number
+		return next;//returns that number
+	}
+
+
 };
 
 
