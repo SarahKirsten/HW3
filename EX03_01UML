@@ -1,0 +1,17 @@
+The UML diagram for EX03_01
+
+-------------------------------------
+|Fan                                 |
+-------------------------------------
+|-speed: int                         |speed of this fan (default 1) 
+|-on: boolean                        |says if the fan is on  (default false)
+|-radius: double                     |radius of this fan (default 5)
+-------------------------------------
+|+Fan()                              |construct fan with speed 1, fan off, radius 5
+|+getSpeed(): int                    |returns speed of fan
+|+setSpeed(speed: int): void         |sets new speed for fan
+|+getOn(): boolean                   |returns true if fan is on
+|setOn(on: bool): void               |sets fan on to true or false
+|getRadius(): double                 |returns radius of fan
+|setRadius(radius: double): void     |sets new radius for fan
+-------------------------------------
