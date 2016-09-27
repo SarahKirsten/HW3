@@ -14,6 +14,11 @@
 #include <fstream>
 using namespace std;
 
+class EvenNumber
+{
+
+};
+
 
 
 #pragma once
