@@ -1,8 +1,8 @@
 /////////////////////////
-//Program Name: 
+//Program Name: EX03_03
 //Name: Sarah Kirsten
 //Class and Section: CS172-1
-//Date: 
+//Date: 9/27/2016
 ///////////////////////
 
 #include <iostream>
@@ -16,7 +16,10 @@ using namespace std;
 
 class EvenNumber
 {
+private:
 
+public:
+	int value;
 };
 
 
