@@ -1,1 +1,13 @@
 
+----------------------------------------------------
+|QuadraticEquation                                  |
+----------------------------------------------------
+|-a: double                                         |three coefficients
+|-b: double                                         |
+|-c: double                                         |
+----------------------------------------------------
+|+QuadraticEquation(a: double,b: double, c: double) |constructs object with specified coefficients
+|+getDiscriminant(): double                         |returns discriminant
+|+getRoot1(): double                                |returns root 1
+|+getRoot2(): double                                |returns root 2
+----------------------------------------------------
