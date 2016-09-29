@@ -1,1 +1,13 @@
-
+-------------------------
+|EvenNumber             |
+-------------------------
+|+value: int            |beginning value of even number
+|+previous: int         |the even number before the beginning value
+|+next: int             |the even number after the beginning value
+|                       |
+|+EvenNumber()          |empty object
+|+EvenNumber(x: int)    |object for value given (16)
+|+getValue(): int       |returns beginning value 
+|+getPrevious(): int    |returns even number before beginning value
+|+getNext(): int        |returns even number after beginning value
+-------------------------
