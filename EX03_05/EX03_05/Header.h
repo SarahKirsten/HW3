@@ -70,6 +70,21 @@ public:
 	{
 		return isEven(n.getValue());
 	}
+	
+	bool isOdd() const
+	{
+		return isOdd(value);
+	}
+	
+	static bool isOdd(int m)
+	{
+		return m % 2 != 0;
+	}
+	
+	static bool isOdd(const MyInteger& m)
+	{
+		return isOdd(m.getValue());
+	}
 
 	bool equals(int anotherNum) const
 	{
@@ -79,6 +94,11 @@ public:
 	bool equals(const MyInteger& o) const
 	{
 		return value == o.getValue();
+	}
+	
+	int parseInt(string value)
+	{
+		return value;
 	}
 };
 
