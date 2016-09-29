@@ -1,8 +1,8 @@
 ----------------------------------------------
 |MyInteger                                    |
 ----------------------------------------------
-|+value: int                                  | an int value for the object
-|                                             |
+|-value: int                                  | an int value for the object
+----------------------------------------------
 |+MyInteger(value: int)                       |constructs object with specified int value
 |+getValue(): int const                       |returns value in this object
 |+isPrime(): bool const                       |returns true if value is prime
