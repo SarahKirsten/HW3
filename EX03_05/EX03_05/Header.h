@@ -95,11 +95,6 @@ public:
 	{
 		return value == o.getValue();
 	}
-	
-	int parseInt(string value)
-	{
-		return value;
-	}
 };
 
 
